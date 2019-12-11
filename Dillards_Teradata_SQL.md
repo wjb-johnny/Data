@@ -1,6 +1,5 @@
 
-# Big Data Assignment 1
-This assignment uses the dataset provided by Dillards. The dataset contains data about transactions from Aug 2004 to Aug 2005 and its stores and departments.   
+This file uses the dataset provided by Dillards. The dataset contains data about transactions from Aug 2004 to Aug 2005 and its stores and departments.   
 The relational schema is shown as below:  
 
 <img src="https://bitbucket.org/junbo_wang/ift/raw/7759a6274cfc443ddc16c0a9929a0e889068b223/sql/Relational_Schema.png" width="600">
