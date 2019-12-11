@@ -2,7 +2,7 @@
 This file uses the dataset provided by Dillards. The dataset contains data about transactions from Aug 2004 to Aug 2005 and its stores and departments.   
 The relational schema is shown as below:  
 
-<img src="https://bitbucket.org/junbo_wang/ift/raw/7759a6274cfc443ddc16c0a9929a0e889068b223/sql/Relational_Schema.png" width="600">
+<img src="https://github.com/wjb-johnny/Database/blob/master/Dillards_Teradata_SQL/Relational_Schema.png" width="600">
 
 Note: This dataset is based on Teradata SQL.
 
@@ -20,7 +20,7 @@ ORDER BY year_num ASC, month_num ASC
 ```
 
 **Result:**  
-<img src="https://bitbucket.org/junbo_wang/ift/raw/2364027ec77351dc2abaa7d608163a0fcadf5136/sql/1.png" width="300">
+<img src="https://github.com/wjb-johnny/Database/blob/master/Dillards_Teradata_SQL/1.png?raw=true" width="300">
 
 ### 2. Use a CASE statement within an aggregate function to determine which skuhad the greatest total sales during the combined summer months of June, July, and August. 
 
@@ -38,7 +38,7 @@ ORDER BY sales DESC
 ```
 
 **Result:**  
-<img src="https://bitbucket.org/junbo_wang/ift/raw/2364027ec77351dc2abaa7d608163a0fcadf5136/sql/2.png" width="250">
+<img src="https://github.com/wjb-johnny/Database/blob/master/Dillards_Teradata_SQL/2.png?raw=true" width="250">
 
 ### 3. How many distinct dates are there in the saledate column of the transactiontable for each month/year/store combination in the database? Sort your results by the number of days per combination in ascending order. 
 
@@ -55,7 +55,7 @@ ORDER BY day_num ASC
 ```
 
 **Result:**  
-<img src="https://bitbucket.org/junbo_wang/ift/raw/2364027ec77351dc2abaa7d608163a0fcadf5136/sql/3.png" width="400">
+<img src="https://github.com/wjb-johnny/Database/blob/master/Dillards_Teradata_SQL/3.png?raw=true" width="400">
 
 ### 4. What is the average daily revenue for each store/month/year combination inthe database? Calculate this by dividing the total revenue for a group by the number of sales days available in the transaction table for that group.   
 Remember to clean data: 
@@ -89,7 +89,7 @@ ORDER BY average_sales DESC
 ```
 
 **Result:**  
-<img src="https://bitbucket.org/junbo_wang/ift/raw/2364027ec77351dc2abaa7d608163a0fcadf5136/sql/4.png" width="600">
+<img src="https://github.com/wjb-johnny/Database/blob/master/Dillards_Teradata_SQL/4.png?raw=true" width="600">
 
 ### 5. What is the average daily revenue brought in by Dillard’s stores in areas of high, medium, or low levels of high school education?   
 Define areas of “low” education as those that have high school graduation rates between 50-60%, areas of “medium” education as those that have high school graduation rates between 60.01-70%, and areas of “high” education as those that have high school graduation rates of above 70%. 
@@ -122,7 +122,7 @@ ORDER BY average_sales DESC
 ```
 
 **Result:**  
-<img src="https://bitbucket.org/junbo_wang/ift/raw/2364027ec77351dc2abaa7d608163a0fcadf5136/sql/5.png" width="250">
+<img src="https://github.com/wjb-johnny/Database/blob/master/Dillards_Teradata_SQL/5.png?raw=true" width="250">
 
 ### 6. Compare the average daily revenues of the stores with the highest medianmsa_income and the lowest median msa_income. In what city and state were these stores, and which store had a higher average daily revenue?
 
@@ -158,7 +158,7 @@ GROUP BY cleaned_data.STORE, msa.city, msa.state, msa.msa_income
 ```
 
 **Result:**  
-<img src="https://bitbucket.org/junbo_wang/ift/raw/2364027ec77351dc2abaa7d608163a0fcadf5136/sql/6.png" width="600">
+<img src="https://github.com/wjb-johnny/Database/blob/master/Dillards_Teradata_SQL/6.png?raw=true" width="600">
 
 ### 7. What is the brand of the sku with the greatest standard deviation in sprice? Only examine skus that have been part of over 100 transactions. 
 
@@ -181,7 +181,7 @@ ORDER BY cleaned_data.sd DESC;
 ```
 
 **Result:**  
-<img src="https://bitbucket.org/junbo_wang/ift/raw/2364027ec77351dc2abaa7d608163a0fcadf5136/sql/7.png" width="300">
+<img src="https://github.com/wjb-johnny/Database/blob/master/Dillards_Teradata_SQL/7.png?raw=true" width="300">
 
 ### 8. What was the average daily revenue Dillard’s brought in during each month of the year? 
 
@@ -208,7 +208,7 @@ ORDER BY average_sales DESC
 ```
 
 **Result:**  
-<img src="https://bitbucket.org/junbo_wang/ift/raw/2364027ec77351dc2abaa7d608163a0fcadf5136/sql/8.png" width="200">
+<img src="https://github.com/wjb-johnny/Database/blob/master/Dillards_Teradata_SQL/8.png?raw=true" width="200">
 
 ### 9. Which department, in which city and state of what store, had the greatest % increase in average daily sales revenue from November to December? 
 
@@ -239,7 +239,7 @@ ORDER BY percentage_increase DESC
 ```
 
 **Result:**  
-<img src="https://bitbucket.org/junbo_wang/ift/raw/2364027ec77351dc2abaa7d608163a0fcadf5136/sql/9.png" width="1000">
+<img src="https://github.com/wjb-johnny/Database/blob/master/Dillards_Teradata_SQL/9.png?raw=true" width="1000">
 
 ### 10. What is the city and state of the store that had the greatest decrease in average daily revenue from August to September? 
 
@@ -270,7 +270,7 @@ ORDER BY percentage_increase ASC;
 ```
 
 **Result:**  
-<img src="https://bitbucket.org/junbo_wang/ift/raw/2364027ec77351dc2abaa7d608163a0fcadf5136/sql/10.png" width="1000">
+<img src="https://github.com/wjb-johnny/Database/blob/master/Dillards_Teradata_SQL/10.png?raw=true" width="1000">
 
 ### 11. Determine the month of maximum total revenue for each store. Count the number of stores whose month of maximum total revenue was in each of the twelve months. Then determine the month of maximum average daily revenue. Count the number of stores whose month of maximum average daily revenue was in each of the twelve months. How do they compare? 
 
@@ -311,4 +311,4 @@ ORDER BY rank_data.month_num ASC
 ```
 
 **Result:**  
-<img src="https://bitbucket.org/junbo_wang/ift/raw/2364027ec77351dc2abaa7d608163a0fcadf5136/sql/11.png" width="400">
+<img src="https://github.com/wjb-johnny/Database/blob/master/Dillards_Teradata_SQL/11.png?raw=true" width="400">
