@@ -7,3 +7,6 @@ Kaggle Competition
 **18/01/2020 Add Kaggle-Titanic-Models.ipynb**
 + Feature Engineering
 + ML Models
+
+# Database
++ 11/12/2019 Add Drillard's Teradata SQL scipts
