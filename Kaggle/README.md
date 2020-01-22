@@ -8,5 +8,3 @@ Kaggle Competition
 + Feature Engineering
 + ML Models
 
-# Database
-+ 11/12/2019 Add Drillard's Teradata SQL scipts
