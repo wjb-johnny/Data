@@ -14,3 +14,8 @@ SQL & non-SQL
 
 ## Tableau
 Analytics & Visualization & Dashboards
+
+
+
+## Analytics
+Working on KPMG virtual internship: clean data & build a model to classify customers
