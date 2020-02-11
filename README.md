@@ -1,21 +1,32 @@
 # Data
-Data related work (database, analytics, data science)  
+Data related work (Data Science, Data Analytics)  
 Combined from old repositories on 22/01/2020
 
-## kaggle
+
+
+## Data Science
+### Kaggle Competition
 Kaggle competitions (Data science)
 
 
 
-## Database
-SQL & non-SQL
+### NLP
+Working on 
+
+
+## Data Analytics
+### Database
+SQL & non-SQL(working on)
 
 
 
-## Tableau
-Analytics & Visualization & Dashboards
+### Tableau
+Visualization & Dashboards
 
 
 
-## Analytics
-Working on KPMG virtual internship: clean data & build a model to classify customers
+### Analytics Project
+1. Data Quality Management
+2. Analytical Models(Python & Excel)
+3. Data Visualization(Tableau)
+4. Data-based Decision Making
