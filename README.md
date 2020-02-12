@@ -11,7 +11,7 @@ Kaggle competitions (Data science)
 
 
 ### NLP
-Working on 
+Coursera course
 
 
 ## Data Analytics
