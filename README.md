@@ -5,7 +5,7 @@ Combined from old repositories on 22/01/2020
 
 
 ## Data Science
-### Kaggle Competition
+### Kaggle
 Kaggle competitions (Data science)
 
 
