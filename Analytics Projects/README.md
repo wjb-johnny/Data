@@ -3,6 +3,7 @@
 
 
 1. Data Quality Management
-2. Analytical Models(Python & Excel)
-3. Data Visualization(Tableau)
-4. Data-based Decision Making
+2. Data Retrieval (SQL)
+3. Analytical Models (Python & Excel)
+4. Data Visualization (Tableau)
+5. Data-based Decision Making (presentations & data stories)
