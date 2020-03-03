@@ -1,5 +1,5 @@
 # Home Credit Default Risk (Kaggle Competition)
-Predict how capable each applicant is of repaying a loan
+Predict how capable each applicant is of repaying a loan  
 introduction link: https://www.kaggle.com/c/home-credit-default-risk
 
 ## 1. Manual Feature Engineering
